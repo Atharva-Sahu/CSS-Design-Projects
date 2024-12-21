@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 70px;
+    padding-top: 120PX;
+    gap: 70px
+}
+
+#left{
+    /* align-items: center;  */
+    height: 100%;
+    width: 45%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 130px;
+    line-height: 120px;
+    font-weight: 500;
+    font-family: work sans;
+    margin-bottom: 0;
+}
+
+#bottom-left{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: yellow; */
+
+}
+
+#color{
+    /* background-color: aqua; */
+    width: fit-content;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+
+}
+
+#color-1{
+    height: 20px;
+    width: 20px;
+    background-color: chocolate;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+#color-2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(183, 30, 210);
+    border-radius: 50%;
+
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#left p{
+    font-size: 15px;
+    width: 60%;
+    font-weight: 600;
+    color: #444;
+    line-height: 30px;
+}
+
+#right{
+    height: 90%;
+    width: 35%;
+    position: relative;
+    /* background-color: rgb(217, 48, 255); */
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: work sans;    
+}
+
+#right-top h5{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: work sans;    
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 91.5%;
+    object-fit: cover;
+}
+#circle-arrow{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background-color: #303030;
+    border-radius: 50%;
+    color: rgb(223, 221, 221);
+    right:-12.5%;
+    top:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-arrow h5{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#rotated{
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-size: 35px;
+    font-weight: 500;
+    left:-12%;
+    bottom: 3%;
+}
